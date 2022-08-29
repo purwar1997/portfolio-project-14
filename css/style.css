@@ -8,9 +8,12 @@
   font-weight: 500;
 }
 
+body {
+  background-color: #f5f2f0;
+}
+
 .main-container {
   height: 100vh;
-  background-color: #f5f2f0;
   display: flex;
   flex-direction: row;
 }
