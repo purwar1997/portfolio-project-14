@@ -22,4 +22,69 @@
   .container {
     height: auto;
   }
+
+  .left-container {
+    display: none;
+  }
+
+  .right-container {
+    padding: 0px 40px;
+  }
+
+  .social-links {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .nav-items::before {
+    display: none;
+  }
+
+  .nav-items {
+    justify-content: center;
+  }
+
+  .btn {
+    margin-top: 40px;
+  }
+
+  .bottom-section {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 620px) {
+  .heading h1 {
+    font-size: 80px;
+  }
+
+  .bottom-section {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .services {
+    gap: 25px;
+  }
+
+  .services::before {
+    display: block;
+    width: 100%;
+    height: 1px;
+    position: static;
+  }
+
+  .services li::before {
+    right: 15px;
+  }
+
+  .services li:first-child::before {
+    height: 9px;
+    width: 9px;
+  }
+
+  .about-us {
+    width: 100%;
+  }
 }

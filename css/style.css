@@ -158,6 +158,9 @@ a {
 
 .services {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .services::before {
@@ -172,7 +175,6 @@ a {
 }
 
 .services li {
-  margin-bottom: 30px;
   font-size: 16px;
   color: #848585;
 }
