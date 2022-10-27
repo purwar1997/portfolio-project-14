@@ -101,7 +101,7 @@
   }
 }
 
-/* @media (max-width: 520px) {
+@media (max-width: 520px) {
   .heading h1 {
     font-size: 60px;
   }
@@ -118,4 +118,8 @@
   .nav-items {
     gap: 35px;
   }
-} */
+
+  .nav-items li a {
+    font-size: 16px;
+  }
+}
