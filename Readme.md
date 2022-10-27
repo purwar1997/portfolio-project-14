@@ -4,12 +4,11 @@
 ![CSS](https://img.shields.io/badge/-CSS-brightgreen)
 ![CSS Position](https://img.shields.io/badge/-CSS%20Position-orange)
 ![CSS Flexbox](https://img.shields.io/badge/CSS%20Flexbox-blue)
-![Netlify](https://img.shields.io/badge/-Netlify-green)
-![Vercel](https://img.shields.io/badge/-Vercel-blueviolet)
+![Responsive](https://img.shields.io/badge/-Responsive-blueviolet)
 
 ## Description
 
-A graphic design home page created using `HTML` and `CSS`. This project is hosted on both `Netlify` and `Vercel`.
+This project is a home page for a graphic design company. It is created using HTML and CSS and is responsive for both mobile and tablet screens.
 
 **Created By :** Shubham Purwar
 
@@ -17,8 +16,12 @@ A graphic design home page created using `HTML` and `CSS`. This project is hoste
 
 ## What I learnt by creating this project :-
 
-- How to position elements using CSS `flexbox`
-- How to position elements using CSS `position` property
-- How to use CSS psuedoselectors like `::after` and `::first-child`
+- How to position elements using CSS `flexbox` and `position` property
+- How to use CSS psuedo-selectors like `::before` and `::after`
+- How to make web page responsive using `media-queries`
 
-### [Live link](https://portfolio-project-14.vercel.app/) of the project
+### Preview of the project :-
+
+![preview](./preview.png)
+
+### [Live link](https://portfolio-project-14.vercel.app/) of the project.
