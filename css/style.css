@@ -28,7 +28,7 @@ a {
 
 .left-container {
   width: 450px;
-  height: 100vh;
+  height: 100%;
   background-image: url(../assets/jpg-images/pexels-rfstudio-3819572.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -79,6 +79,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 80px;
 }
 
 .heading {
@@ -121,12 +122,12 @@ a {
   transition: transform 300ms ease;
 }
 
-.social-links :nth-child(3) img {
-  width: 14px;
-}
-
 .social-links img:hover {
   transform: scale(1.2);
+}
+
+.social-links li:nth-child(3) img {
+  width: 14px;
 }
 
 .btn {

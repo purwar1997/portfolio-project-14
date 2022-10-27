@@ -1,0 +1,25 @@
+@media (max-width: 1280px) {
+  .down-arrow {
+    display: none;
+  }
+
+  .about-us {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  body {
+    overflow: scroll;
+  }
+
+  /* .container {
+    height: auto;
+  } */
+}
