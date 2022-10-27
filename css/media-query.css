@@ -69,7 +69,7 @@
 
   .bottom-section {
     flex-direction: column;
-    gap: 40px;
+    gap: 35px;
   }
 
   .services {
@@ -102,24 +102,20 @@
 }
 
 @media (max-width: 520px) {
+  .heading {
+    gap: 20px;
+  }
+
   .heading h1 {
-    font-size: 60px;
+    font-size: 70px;
   }
 
   .heading h1 span {
-    padding-left: 70px;
+    padding-left: 80px;
   }
 
   .heading h3 {
     font-size: 20px;
     position: static;
-  }
-
-  .nav-items {
-    gap: 35px;
-  }
-
-  .nav-items li a {
-    font-size: 16px;
   }
 }
