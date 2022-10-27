@@ -12,17 +12,17 @@
   .logo {
     display: none;
   }
-}
 
-@media (max-width: 750px) {
   body {
     overflow: scroll;
   }
 
   .container {
-    height: auto;
+    /* height: auto; */
   }
+}
 
+@media (max-width: 750px) {
   .left-container {
     display: none;
   }
@@ -77,6 +77,10 @@
 
   .services li::before {
     right: 15px;
+  }
+
+  .services li:first-child {
+    right: 0px;
   }
 
   .services li:first-child::before {
