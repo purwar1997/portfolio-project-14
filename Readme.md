@@ -1,20 +1,20 @@
 # Portfolio Project 14
 
-![HTML](https://img.shields.io/badge/-HTML-red)
-![CSS](https://img.shields.io/badge/-CSS-blue)
-![Responsive](https://img.shields.io/badge/-Responsive-green)
+![HTML5](https://img.shields.io/badge/-HTML5-red)
+![CSS3](https://img.shields.io/badge/-CSS3-blue)
+![Responsive](https://img.shields.io/badge/-Responsive-forestgreen)
 
 ## Description
 
-This project is a home page for a graphic design company. It is created using HTML and CSS and is responsive for screens of various sizes.
+This project is a landing page for a graphic design company. It is built using HTML and CSS and is responsive for both mobile and tablet screens.
 
-### Learnings from this project :-
+### Learnings from this project -
 
-- How to position elements using CSS `Flexbox` and `position` property
+- How to position elements using CSS `Flexbox`
 - How to use CSS psuedo-selectors like `::before` and `::after`
 - How to use `media-queries` to make webpage responsive
 
-### Preview of the project :-
+### Preview of the project
 
 ![preview](./preview.png)
 
